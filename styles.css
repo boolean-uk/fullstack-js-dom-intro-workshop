@@ -1,0 +1,28 @@
+.red-text {
+  color: red;
+}
+
+.large-bold-text {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+/* CSS CLASS */
+.blue-text {
+  color: blue;
+}
+
+.checkbox {
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+#main-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+}
+
+p {
+  font-size: 16px;
+}
