@@ -14,7 +14,33 @@
       <input id="new-task-text" type="text" placeholder="new task" />
       <button>Create Task</button>
     </div>
-    </form>
+    <div>
+      <h3>Filters</h3>
+      <input id="title-filter" type="text" placeholder="title filter" />
+
+      <label for="checked-filter-all">All</label>
+      <input
+        id="checked-filter-all"
+        type="radio"
+        value="checked-filter-all"
+        name="checked-filters"
+        checked
+      />
+      <label for="checked-filter-done">Done</label>
+      <input
+        id="checked-filter-done"
+        type="radio"
+        value="checked-filter-done"
+        name="checked-filters"
+      />
+      <label for="checked-filter-not-done">Not Done</label>
+      <input
+        id="checked-filter-not-done"
+        type="radio"
+        value="checked-filter-not-done"
+        name="checked-filters"
+      />
+    </div>
     <ul id="task-list"></ul>
 
     <!-- <h1 id="main-heading">Home</h1>
